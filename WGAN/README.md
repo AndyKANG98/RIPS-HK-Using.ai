@@ -2,7 +2,7 @@
 
 > To further expand the data set and ultimately improve the performance of the object detection model, we used the original data set and trained WGAN ([Improved Training of Wasserstein GANs](https://arxiv.org/pdf/1704.00028.pdf)) to generate more data. The code was forked and modified from: [DCGAN-LSGAN-WGAN-WGAN-GP-Tensorflow](https://github.com/LynnHo/DCGAN-LSGAN-WGAN-WGAN-GP-Tensorflow)
 
-
+<br>
 
 ## Model Implementation
 
@@ -14,7 +14,7 @@
 * WGAN-GAN Restore.ipynb
   * Restore the generator to generate large amount of data from the checkpoints
 
-
+<br>
 
 ## Result Evaluation
 
@@ -24,7 +24,7 @@
 
 >  The above samples are in low resolution and quality, not qualified to become the training data for the object detection model. However, even if the resolution is high, we can hardly use the "unlabeled data" to expand the training set. So we came up with the idea of generating "visualized labeled data.
 
-
+<br>
 
 * Samples of generating "labeled data": 
 

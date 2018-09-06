@@ -2,6 +2,8 @@
 
 > This Tool Kit is forked from: [OIDv4 ToolKit](https://github.com/EscVM/OIDv4_ToolKit) to download specific labeled images form [Open Images Dataset v4](https://storage.googleapis.com/openimages/web/index.html). With the high quality of labeled data we may further expand the training data set and derive a better detection model.
 
+<br>
+
 Do you want to build your personal object detector but you don't have enough images to train your model? Have you already discovered [Open Images Dataset v4](https://storage.googleapis.com/openimages/web/index.html) that has [600](https://storage.googleapis.com/openimages/2018_04/bbox_labels_600_hierarchy_visualizer/circle.html) classes and more than 1,700,000 images ready to use? Do you want to exploit it for your projects but you don't want to download more than 500 GB of data!?
 
 With this repository we can help you to get the best of this dataset with less effort as possible.
@@ -17,6 +19,8 @@ The code is quite documented and designed to be easy to extend and improve.
 Me and [Angelo](https://github.com/keldrom) are pleased if our little bit of code can help you with your project and research. Enjoy ;)
 
 ![Snippet of the OIDv4 available classes](images/classes.png)
+
+<br>
 
 # Open Image Dataset v4
 All the information related to this huge dataset can be found [here](https://storage.googleapis.com/openimages/web/index.html)
@@ -35,6 +39,8 @@ It's important to underline that some annotations has been done as a group. It m
 That's again an option of the toolkit that can be used to only grasp the desired images. 
 
 Finally, it's interesting to notice that not all annotations has been produced by humans, but the creator also exploited an enhanced version of the method shown here reported [1](#reference)
+
+<br>
 
 # Getting Started
 

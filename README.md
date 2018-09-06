@@ -3,7 +3,7 @@
 >
 > This project is sponsored by [Using.ai](https://using.ai/) and completed by [Andy Kang](https://github.com/AndyKANG98) from HKUST, [Biraj Pandey](https://github.com/birajpandey) from UT Austin, [Bob Wang](https://github.com/bobwzy) from CUHK, and [Caitlin Shener](https://github.com/caitlinosh) from UCLA. We explored the deep learning models to implement tire detection and several ways to expand the limited data set.
 
-
+<br>
 
 ## Problem Background
 
@@ -16,17 +16,17 @@ boxes for each tire. We were given about 600 images of cars with labels.
 > A sample of the **input training image** (left), and the **output coordinates** of the
 > wheels detected (right) 
 
-
+<br>
 
 The first part of the project was implementing tire detection with traditional deep learning models, which can be found in the `Tire-Detection`  folder. However, the amount of labeled data is limited and in a low quality. So, we need to further expand the data set in order to improve the performance of tire detection model, which can be found in `WGAN` and `OIDv4_ToolKit`.
 
-
+<br>
 
 ## Tire Detection Implementation
 
 The implementation can be found in [`Tire-Detection`](./Tire-Detection). We applied transfer learning methods based on the pretrained model in [TensorFlow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection). The result was satisfied with in the test images provided but bad in some test samples from videos recorders. By observing the training set, we found that the amount of training data is small and the images are similar to each other. Then the model showed the features of overfitting. So we need to somehow expand the data set.
 
-
+<br>
 
 ## Data Generation by [GAN](https://arxiv.org/abs/1406.2661)
 
@@ -36,7 +36,7 @@ The implementation can be found in [`Tire-Detection`](./Tire-Detection). We appl
 
 > Figure: Structure of GAN to generate labeled samples of cars.
 
-
+<br>
 
 ## Open-Image Data Set Downloading
 
@@ -44,7 +44,7 @@ The implementation can be found in [`Tire-Detection`](./Tire-Detection). We appl
 
 ![open-image-tire-samples](./OIDv4_ToolKit/open-image-tire-samples.png)
 
-
+<br>
 
 ## Conclusion and Future Work
 

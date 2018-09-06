@@ -1,0 +1,5 @@
+model_checkpoint_path: "Epoch_(1999)_(1of1).ckpt"
+all_model_checkpoint_paths: "Epoch_(499)_(1of1).ckpt"
+all_model_checkpoint_paths: "Epoch_(999)_(1of1).ckpt"
+all_model_checkpoint_paths: "Epoch_(1499)_(1of1).ckpt"
+all_model_checkpoint_paths: "Epoch_(1999)_(1of1).ckpt"

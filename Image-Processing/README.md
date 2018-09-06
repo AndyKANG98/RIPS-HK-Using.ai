@@ -1,5 +1,5 @@
 ## Image Processing 
-* Here are demos for processing images
+* Here are some basic demos for pre-processing images before training models
     * label_visualization
         * data_vis: to visualize the object position using the coordinate information in xml files
     * dataset_resize

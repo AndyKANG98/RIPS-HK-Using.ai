@@ -1,12 +1,9 @@
-data/wheel/empty_label
-data/wheel/img/*.jpg
-data/wheel/img_vis
-data/wheel/label/*.xml
-data/wheel/new_img
-data/wheel/new_label
-data/wheel/video_test
+data/wheel/*
 
 *.pyc
-code/**/.ipynb_checkpoints
+Image-Processing/**/.ipynb_checkpoints
+Tire-Detection/**/.ipynb_checkpoints
+WGAN/**/.ipynb_checkpoints
+Image-Processing/**/.ipynb_checkpoints
 **/.ipynb_checkpoints
 **/.DS_Store

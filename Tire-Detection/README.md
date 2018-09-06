@@ -22,11 +22,11 @@ The performance of the model was evaluated by precision and recall, which are ca
 
 <br>
 
-| ssdlite mobilenet v2 | faster rcnn inception v2 |          |
-| -------------------- | ------------------------ | -------- |
-| Speed (ms/image)     | 167.551                  | 1164.607 |
-| Recall               | 0.8244                   | 0.952036 |
-| Precision            | 0.9391                   | 0.8878   |
+|                  | ssdlite mobilenet v2 | faster rcnn inception v2 |
+| ---------------- | -------------------- | ------------------------ |
+| Speed (ms/image) | 167.551              | 1164.607                 |
+| Recall           | 0.8244               | 0.952036                 |
+| Precision        | 0.9391               | 0.8878                   |
 
 > Results table for object detection: SSD has a higher detect speed, lower recall and higher
 > precision than Faster R-CNN. Both detection models show strong performance on test data set.
